@@ -4,8 +4,10 @@ let newRow;
 let newSquare;
 let numSquare = 20;
 let squareSize;
+let square;
 let x;
 let y;
+let z;
 
 //calculate square size
 squareSize = 600/numSquare;
@@ -35,4 +37,14 @@ for(x = 0; x < numSquare; x++){
 }
 
 
+//add event to change square color when mouse hovers over
+function changeColor(e){
+    e.target.style.backgroundColor = 'rgb(88, 88, 88)';
+    //e.target.style.color = 'black';
+}
+
+square = document.querySelectorAll(".square");
+for(z = 0; z < square.length; z++){
+    square[z].addEventListener("mouseover",changeColor);
+}
 
