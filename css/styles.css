@@ -8,6 +8,28 @@ body{
     text-align: center;
 }
 
+.reset-button{
+    margin-bottom: 25px;
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.reset-button-highlight{
+    margin-bottom: 25px;
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: rgb(88, 88, 88);
+    box-shadow: 1px 1px 1px 1px rgb(207, 207, 207);
+}
+
 .main{
     margin-left:auto;
     margin-right:auto;
