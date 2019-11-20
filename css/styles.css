@@ -10,7 +10,7 @@ body{
 
 .select-button{
     margin-bottom: 25px;
-    width: 100px;
+    width: 120px;
     height: 50px;
     background-color: transparent;
     border-style: solid;
@@ -20,7 +20,7 @@ body{
 
 .select-button-highlight{
     margin-bottom: 25px;
-    width: 100px;
+    width: 120px;
     height: 50px;
     background-color: transparent;
     border-style: solid;
